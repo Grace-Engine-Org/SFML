@@ -30,6 +30,7 @@
 ////////////////////////////////////////////////////////////
 #include <SFML/System/Export.hpp>
 #include <ostream>
+#include <SFML/System/debugMsg.hpp>
 
 
 namespace sf

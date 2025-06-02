@@ -100,6 +100,7 @@ namespace sf
 ////////////////////////////////////////////////////////////
 std::ostream& err()
 {
+    debugMessage::printWarningInfo();
     static DefaultErrStreamBuf buffer;
     static std::ostream stream(&buffer);
 

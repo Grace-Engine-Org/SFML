@@ -6,6 +6,8 @@ set(SRCROOT ${PROJECT_SOURCE_DIR}/src/SFML/System)
 set(SRC
     ${SRCROOT}/Clock.cpp
     ${INCROOT}/Clock.hpp
+    ${SRCROOT}/debugMsg.cpp
+    ${INCROOT}/debugMsg.hpp
     ${SRCROOT}/Err.cpp
     ${INCROOT}/Err.hpp
     ${INCROOT}/Export.hpp
